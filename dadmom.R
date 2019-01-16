@@ -7,4 +7,9 @@ dadmom %>%
   separate(key, c("variable", "type"), -2) %>%
 spread(variable, value, convert = TRUE)
 #Swati
+<<<<<<< HEAD
 #Wenjie
+=======
+#Test data added
+>>>>>>> b9a05a30f9ec68b97e9aed554518581d90effd0b
+#try again

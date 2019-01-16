@@ -6,3 +6,4 @@ dadmom %>%
   gather(key, value, named:incm) %>%
   separate(key, c("variable", "type"), -2) %>%
 spread(variable, value, convert = TRUE)
+#Swati

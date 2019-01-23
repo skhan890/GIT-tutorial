@@ -6,5 +6,8 @@ dadmom %>%
   gather(key, value, named:incm) %>%
   separate(key, c("variable", "type"), -2) %>%
 spread(variable, value, convert = TRUE)
-#Swati
-#Wenjie
+
+head(mtcars)
+cars <- mtcars
+cars$name <- row.names(mtcars)
+plot(cars$mpg ~ cars$cyl+cars$carb)

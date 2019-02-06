@@ -1,9 +1,9 @@
+library(dplyr)
 library(shiny)
-library(readr)
 
 server <- function(input, output) {
   
-  data<-read_csv("https://raw.githubusercontent.com/curran/data/gh-pages/cdc/mortality/mortality_underyling_cause_by_years_simplified.csv")
+  data<-read.csv("https://raw.githubusercontent.com/curran/data/gh-pages/cdc/mortality/mortality_underyling_cause_by_years_simplified.csv")
   
   
 }
